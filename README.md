@@ -35,7 +35,7 @@ To get started with the project, follow these steps:
    cd Typeface-Dropbox/backend
 
 4. **Configure the database connection**: Open the application.properties file located in src/main/resources and update the following properties with your PostgreSQL credentials:
-    ``bash
+    ```bash
     spring.datasource.url=jdbc:postgresql://localhost:5432/dropbox
     spring.datasource.username=<your-username>
     spring.datasource.password=y<our-password>
