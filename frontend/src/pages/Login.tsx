@@ -31,7 +31,7 @@ const Login: React.FC = () => {
 
             // Handle successful login
             login(response.data);
-            navigate('/');
+            navigate('/home');
         } catch (err) {
             if (axios.isAxiosError(err) && err.response) {
                 setError(err.response.data.message || 'Login failed.');

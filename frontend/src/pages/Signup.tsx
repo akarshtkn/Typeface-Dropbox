@@ -33,7 +33,7 @@ const Signup: React.FC = () => {
             });
 
             login(response.data);
-            navigate('/');
+            navigate('/home');
         } catch (err) {
             if (axios.isAxiosError(err) && err.response) {
                 setError(err.response.data.message || 'Signup failed.');
